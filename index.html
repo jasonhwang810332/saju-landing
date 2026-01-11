@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사주 AI - AI가 매일 분석하는 당신의 운세</title>
+    <meta name="description" content="사주팔자 기반 AI 운세 분석 서비스. 매일 아침 맞춤형 운세를 받아보세요.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card {
+            background: white;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+<!-- 히어로 섹션 -->
+<div class="gradient-bg min-h-screen flex flex-col">
+    <nav class="p-4">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <div class="text-white text-2xl font-bold">🔮 사주 AI</div>
+            <a href="https://t.me/saju_daily_bot" target="_blank"
+               class="bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-full text-sm transition">
+                텔레그램으로 시작 →
+            </a>
+        </div>
+    </nav>
+
+    <div class="flex-1 flex items-center justify-center px-4">
+        <div class="text-center text-white max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                AI가 매일 아침<br>당신의 운세를 분석합니다
+            </h1>
+            <p class="text-xl opacity-90 mb-8">
+                사주팔자 기반 맞춤형 일일 운세<br>
+                연애, 재물, 건강, 직장까지 AI가 분석
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://t.me/saju_daily_bot" target="_blank"
+                   class="bg-white text-purple-600 font-bold px-8 py-4 rounded-full text-lg hover:bg-gray-100 transition shadow-lg">
+                    📱 14일 무료 체험 시작
+                </a>
+                <a href="#pricing"
+                   class="bg-white/20 text-white font-bold px-8 py-4 rounded-full text-lg hover:bg-white/30 transition">
+                    💎 요금제 보기
+                </a>
+            </div>
+
+            <div class="mt-12 flex justify-center gap-8 text-sm opacity-80">
+                <div>
+                    <div class="text-2xl font-bold">1,000+</div>
+                    <div>사용자</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold">50,000+</div>
+                    <div>분석 완료</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold">4.8/5</div>
+                    <div>만족도</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 기능 섹션 -->
+<section class="py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">주요 기능</h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="card rounded-2xl p-6 shadow-lg">
+                <div class="text-4xl mb-4">📅</div>
+                <h3 class="text-xl font-bold mb-2">매일 아침 운세</h3>
+                <p class="text-gray-600">
+                    텔레그램으로 매일 아침 7시 맞춤형 운세를 받아보세요.
+                    오늘 뭘 하면 좋을지, 뭘 피해야 할지 알려드려요.
+                </p>
+            </div>
+
+            <div class="card rounded-2xl p-6 shadow-lg">
+                <div class="text-4xl mb-4">🤖</div>
+                <h3 class="text-xl font-bold mb-2">AI 상담</h3>
+                <p class="text-gray-600">
+                    궁금한 점을 AI에게 물어보세요. 연애, 취업, 이직 등
+                    사주 기반 맞춤 상담을 받을 수 있어요.
+                </p>
+            </div>
+
+            <div class="card rounded-2xl p-6 shadow-lg">
+                <div class="text-4xl mb-4">💕</div>
+                <h3 class="text-xl font-bold mb-2">궁합 분석</h3>
+                <p class="text-gray-600">
+                    연인, 친구, 동료와의 궁합을 분석해드려요.
+                    카테고리별 세부 점수까지 확인 가능합니다.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 가격표 섹션 -->
+<section id="pricing" class="py-16 px-4 bg-gray-100">
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-4">요금제</h2>
+        <p class="text-center text-gray-600 mb-12">가입 후 14일간 모든 기능 무료 체험!</p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- 무료 -->
+            <div class="card rounded-2xl p-6 shadow-lg border-2 border-gray-200">
+                <div class="text-center mb-6">
+                    <h3 class="text-xl font-bold">무료</h3>
+                    <div class="text-4xl font-bold mt-2">₩0</div>
+                    <div class="text-gray-500">영구 무료</div>
+                </div>
+                <ul class="space-y-3 mb-6">
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 오늘의 운세</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 내 사주 분석</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 출석체크 포인트</li>
+                    <li class="flex items-center text-gray-400"><span class="mr-2">✗</span> 내일 운세</li>
+                    <li class="flex items-center text-gray-400"><span class="mr-2">✗</span> AI 상담 무제한</li>
+                </ul>
+                <a href="https://t.me/saju_daily_bot" class="block text-center bg-gray-200 text-gray-700 font-bold py-3 rounded-lg hover:bg-gray-300 transition">
+                    시작하기
+                </a>
+            </div>
+
+            <!-- 월간 구독 -->
+            <div class="card rounded-2xl p-6 shadow-lg border-2 border-purple-500 relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-purple-500 text-white text-sm px-3 py-1 rounded-full">
+                    인기
+                </div>
+                <div class="text-center mb-6">
+                    <h3 class="text-xl font-bold">월간 구독</h3>
+                    <div class="text-4xl font-bold mt-2 text-purple-600">₩4,900</div>
+                    <div class="text-gray-500">월 / 자동결제</div>
+                </div>
+                <ul class="space-y-3 mb-6">
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 모든 무료 기능</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 내일/특정일 운세</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> AI 상담 무제한</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 궁합 분석 무제한</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 2026 연운세</li>
+                </ul>
+                <a href="https://t.me/saju_daily_bot" class="block text-center bg-purple-600 text-white font-bold py-3 rounded-lg hover:bg-purple-700 transition">
+                    구독하기
+                </a>
+            </div>
+
+            <!-- 연간 구독 -->
+            <div class="card rounded-2xl p-6 shadow-lg border-2 border-gray-200">
+                <div class="text-center mb-6">
+                    <h3 class="text-xl font-bold">연간 구독</h3>
+                    <div class="text-4xl font-bold mt-2">₩39,000</div>
+                    <div class="text-gray-500">연 / <span class="text-green-600 font-bold">34% 할인</span></div>
+                </div>
+                <ul class="space-y-3 mb-6">
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 월간 구독 모든 기능</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 우선 고객 지원</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 신규 기능 조기 접근</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 월 ₩3,250 (34% 할인)</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 연 ₩19,800 절약</li>
+                </ul>
+                <a href="https://t.me/saju_daily_bot" class="block text-center bg-gray-800 text-white font-bold py-3 rounded-lg hover:bg-gray-900 transition">
+                    연간 구독
+                </a>
+            </div>
+        </div>
+
+        <!-- 포인트 충전 -->
+        <div class="mt-12 card rounded-2xl p-6 shadow-lg">
+            <h3 class="text-xl font-bold mb-4 text-center">💎 포인트 충전</h3>
+            <p class="text-center text-gray-600 mb-6">구독 없이 필요한 만큼만 사용하세요</p>
+            <div class="grid md:grid-cols-2 gap-4 max-w-xl mx-auto">
+                <div class="border rounded-lg p-4 text-center">
+                    <div class="font-bold">500P</div>
+                    <div class="text-2xl font-bold text-purple-600">₩2,900</div>
+                    <div class="text-sm text-gray-500">내일운세 50회</div>
+                </div>
+                <div class="border rounded-lg p-4 text-center">
+                    <div class="font-bold">2,500P <span class="text-green-600">(+500P 보너스)</span></div>
+                    <div class="text-2xl font-bold text-purple-600">₩9,900</div>
+                    <div class="text-sm text-gray-500">내일운세 250회</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ 섹션 -->
+<section class="py-16 px-4">
+    <div class="max-w-2xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">자주 묻는 질문</h2>
+
+        <div class="space-y-4">
+            <details class="card rounded-lg p-4 shadow cursor-pointer">
+                <summary class="font-bold">결제는 어떻게 하나요?</summary>
+                <p class="mt-3 text-gray-600">텔레그램 봇 내에서 안전하게 결제할 수 있습니다. 신용카드, 체크카드를 지원합니다.</p>
+            </details>
+
+            <details class="card rounded-lg p-4 shadow cursor-pointer">
+                <summary class="font-bold">환불이 가능한가요?</summary>
+                <p class="mt-3 text-gray-600">구독 후 7일 이내, 서비스를 이용하지 않은 경우 전액 환불이 가능합니다. 고객센터로 문의해주세요.</p>
+            </details>
+
+            <details class="card rounded-lg p-4 shadow cursor-pointer">
+                <summary class="font-bold">구독은 어떻게 해지하나요?</summary>
+                <p class="mt-3 text-gray-600">텔레그램 봇에서 설정 > 구독 관리에서 언제든지 해지할 수 있습니다. 해지 후에도 결제 기간까지 이용 가능합니다.</p>
+            </details>
+
+            <details class="card rounded-lg p-4 shadow cursor-pointer">
+                <summary class="font-bold">포인트 유효기간이 있나요?</summary>
+                <p class="mt-3 text-gray-600">충전한 포인트는 1년간 유효합니다. 1년 내 사용하지 않은 포인트는 소멸됩니다.</p>
+            </details>
+
+            <details class="card rounded-lg p-4 shadow cursor-pointer">
+                <summary class="font-bold">서비스 이용 기간은 어떻게 되나요?</summary>
+                <p class="mt-3 text-gray-600">
+                    • 월간 구독: 결제일로부터 30일간<br>
+                    • 연간 구독: 결제일로부터 365일간<br>
+                    • 포인트: 충전일로부터 1년간 유효<br>
+                    구독은 해지하지 않으면 자동 갱신됩니다.
+                </p>
+            </details>
+
+            <details class="card rounded-lg p-4 shadow cursor-pointer">
+                <summary class="font-bold">미성년자도 결제할 수 있나요?</summary>
+                <p class="mt-3 text-gray-600">만 19세 미만 미성년자의 결제는 법정대리인(부모님)의 동의가 필요합니다. 동의 없이 결제한 경우 법정대리인이 취소할 수 있습니다.</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- 푸터 -->
+<footer class="bg-gray-800 text-white py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8 mb-8">
+            <!-- 회사 정보 -->
+            <div>
+                <h4 class="font-bold mb-4">🔮 사주 AI</h4>
+                <p class="text-gray-400 text-sm">
+                    AI 기반 사주 분석 서비스<br>
+                    매일 아침 맞춤형 운세를 받아보세요
+                </p>
+            </div>
+
+            <!-- 고객센터 -->
+            <div>
+                <h4 class="font-bold mb-4">고객센터</h4>
+                <p class="text-gray-400 text-sm">
+                    이메일: support@saju-ai.com<br>
+                    운영시간: 평일 10:00 - 18:00<br>
+                    (점심시간 12:00 - 13:00)
+                </p>
+            </div>
+
+            <!-- 링크 -->
+            <div>
+                <h4 class="font-bold mb-4">서비스</h4>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><a href="https://t.me/saju_daily_bot" class="hover:text-white">텔레그램 봇</a></li>
+                    <li><a href="/terms.html" class="hover:text-white">이용약관</a></li>
+                    <li><a href="/privacy.html" class="hover:text-white">개인정보처리방침</a></li>
+                    <li><a href="/refund.html" class="hover:text-white">환불 정책</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 사업자 정보 (토스페이먼츠 심사 필수) -->
+        <div class="border-t border-gray-700 pt-8">
+            <div class="text-center text-gray-400 text-sm space-y-2">
+                <p class="font-bold text-gray-300">사업자 정보</p>
+                <p>
+                    상호: 사주AI | 대표자: 황창현<br>
+                    사업자등록번호: 000-00-00000<br>
+                    통신판매업신고번호: 제0000-서울강남-0000호<br>
+                    사업장 주소: 서울특별시 강남구 테헤란로 000, 0층
+                </p>
+                <p>
+                    고객센터: 02-0000-0000 | 이메일: support@saju-ai.com<br>
+                    운영시간: 평일 10:00 - 18:00 (점심 12:00 - 13:00, 주말/공휴일 휴무)
+                </p>
+                <p class="pt-4">© 2025 사주 AI. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
